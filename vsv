@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 #
-# Void Linux service manager (runit)
-#
 # Author: Dave Eddy <dave@daveeddy.com>
 # Date: August 29, 2018
 # License: MIT
+# Contributor: ndowens@artixlinux.org
 
 VSV_VERSION='v1.3.4'
 
-export SVDIR=${SVDIR:-/var/service}
+export SVDIR=${SVDIR:-/run/runit/service}
 
 charup='✔'
 chardown='X'
